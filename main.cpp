@@ -104,8 +104,8 @@ int main(int argc, const char * argv[]) {
     
     std::cout<<"Bubble: "<<bubble.count()<<std::endl;
     
-    
-        myfile.open("/Users/iKrikor/Desktop/arreglo.txt");
+    //Aquí se debe insertar la dirección del archivo con los números
+        myfile.open("/Users/Desktop/arreglo.txt");
         for (int i=0; i<N; i++){
             
             getline(myfile,line);
